@@ -2,21 +2,21 @@
 
 module.exports = {
 
-	serverConf: {
-		port: 8000
-	},
+  serverConf: {
+    port: 8000
+  },
 
-	dbConf: {
-		host: 'localhost',
-		database: 'yiban',
-		user: 'root',
-		password: 'adminqqc'
-	},
+  dbConf: {
+    host: 'localhost',
+    database: 'inventordb',
+    user: '',
+    password: ''
+  },
 
-	apiConf: {
-		url: {
-			v1: '/api/v1'
-		}
-	}
+  apiConf: {
+    url: {
+      v1: '/api/v1'
+    }
+  }
 
 }

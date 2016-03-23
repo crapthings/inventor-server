@@ -2,13 +2,13 @@
 
 module.exports = function (api, models, _) {
 
-	api
+  api
 
-		.get(`/`, findAllPosts)
+    .get(`/`, findAllPosts)
 
-		async function findAllPosts (req, res, next) {
-			let posts = await models.Posts.find()
-			res.send(posts)
-		}
+  async function findAllPosts(req, res, next) {
+    let posts = await models.Posts.find()
+    res.send(posts)
+  }
 
 }
